@@ -9,7 +9,7 @@ import Landing from './pages/LandingPage';
 
 function App() {
   return (
-  <div className='h-14 bg-gradient-to-r from-cyan-500 to-blue-500'>
+  <div className='h-14 bg-gradient-to-r from-sky-600 to-green-600 '>
     <Narbar/>
     <Routes>
       <Route path="/" element={<Landing/>}></Route>
